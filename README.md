@@ -17,7 +17,7 @@ Open the terminal, go to the directory where you usually leave your projects and
 $ git clone https://github.com/adejota/dropmail.git
 $ cd dropmail
 $ npm install
-$ npm run serve
+$ npm run dev
 ```
 
 All setup, easy like that! You should see a message like this on your terminal:

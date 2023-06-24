@@ -133,6 +133,9 @@ export default {
             }
 
             this.$store.commit("setMails", session.mails);
+          } else {
+            this.$store.commit("clearSession");
+            await this.introduceSession();
           }
         }
       } catch (error) {
